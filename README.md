@@ -24,3 +24,5 @@ Step by step how to aplay this theme to your firefox:
 
 5.    Restart Firefox:
         Close and reopen Firefox to apply the changes.
+
+![image](https://github.com/marti-georgiev/FireFoxTheme/assets/114106736/22252af5-c898-4ee1-9662-188e666fe7e8)
