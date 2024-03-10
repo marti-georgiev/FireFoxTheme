@@ -1,0 +1,126 @@
+* {
+  font-family: Iosevka Web, Consolas, Courier, monospace;
+  --main-color: #191919;
+  --secondary-color: #346751;
+}
+html,
+body {
+  color: var(--secondary-color) I !important;
+  --tab-shadow-max-size: 0px !important;
+  --tab-block-margin: 0px !important;
+}
+#bookmarks-menu,
+tab {
+  font-size: 13px !important;
+}
+::-moz-placeholder {
+  color: red;
+  opacity: 0 !important;
+  display: none !important;
+}
+
+.tab-icon-image {
+  display: none;
+}
+
+#urlbar {
+  font-size: 15px !important;
+  color: white !important;
+  font-family: Iosevka Web, Consolas, Courier, monospace;
+  background-color: #191919;
+}
+
+#urlbar-input-container:focus {
+  padding: 0 !important;
+}
+
+#searchbar {
+  font-size: 13px !important;
+  color: white !important;
+}
+
+#PersonalToolbar,
+#navigator-toolbox,
+#nav-bar-customization-target,
+#PanelUI-menu-button,
+#urlbar-background,
+#urlbar:focus,
+#urlbar-input {
+  background-color: var(--main-color) !important;
+  color: #346751 !important;
+}
+
+#identity-box {
+  background-color: var(--main-color) !important;
+  margin: 0;
+}
+
+.titlebar-close {
+  width: 16px !important;
+  height: 16px !important;
+  margin-left: 20px !important;
+  padding: 0 !important;
+}
+
+.titlebar-max,
+.titlebar-restore {
+ 
+ width: 1px !important; /* Adjust the width as needed */
+  height: 1px !important; /* Adjust the height as needed */
+  margin-left: 20px !important;
+  padding: 0 !important;
+}
+
+.titlebar-min {
+  -moz-default-appearance: -moz-window-button-maximize;
+  width: 1px !important; /* Adjust the width as needed */
+  height: 1px !important; /* Adjust the height as needed */
+  padding: 0 !important;
+}
+
+.titlebar-button {
+  & > .toolbarbutton-icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}
+
+.titlebar-button:hover {
+  background-color: transparent !important;
+  border-radius: 10px !important;
+}
+
+tab:is([visuallyselected], [multiselected]) {
+  color: var(--secondary-color) !important;
+  background-color: var(--main-color) !important;
+}
+
+:root:not(:-moz-lwtheme) {
+  --tab-selected-bgcolor: rgba(20, 80, 20, 0.174) !important;
+}
+
+#import-button {
+  display: none;
+}
+
+#PlacesToolbarItems toolbarbutton image {
+  display: none !important;
+}
+
+toolbarbutton.bookmark-item:not(.subviewbutton) {
+  &:not([disabled], [open]):hover {
+    background-color: rgba(20, 80, 20, 0.174) !important;
+  }
+}
+
+.titlebar-close,
+.titlebar-max,
+.titlebar-restore,
+.titlebar-min {
+  transform: scale(0.8) !important; 
+  margin-left: 20px !important;
+  padding: 0 !important;
+}
+
+
+
